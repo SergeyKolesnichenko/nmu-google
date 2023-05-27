@@ -53,7 +53,7 @@ function BasicExample() {
           </Form.Group>
           
           <Card className="p-4">
-            <p >{link && <div>"Google link: " <a href={link}>{link}</a></div>}</p>
+            <p >{link && <div>"Google link: " <a target="_blank" href={link}>{link}</a></div>}</p>
           </Card>
       </div>
       }
